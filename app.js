@@ -380,7 +380,7 @@ function searchAndFilter(userInput){
 			
 			if(data !== undefined){ result.push(data);}
 			else{ 
-				alert(userInput[i] + " is not a valid value.");
+				alert(userInput[i] + " was not found.");
 				result = [];
 				initSearch();
 			}
