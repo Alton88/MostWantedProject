@@ -388,7 +388,7 @@ function searchAndFilter(userInput){
 	}
 	result = result
 		.reduce((p,c) => p.filter(e => c.includes(e)))
-		.map(((x) => x.firstName + " " + x.lastName+ " " + x.occupation+"\n")).toString().replace(/,/g, "");
+		.map(((x) => x.firstName + " " + x.lastName+ "\n")).toString().replace(/,/g, "");
 
 	return result;
 }
